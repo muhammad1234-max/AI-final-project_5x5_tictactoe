@@ -1,6 +1,3 @@
-Here’s an improved and more detailed version of your project report with better formatting, phrasing, and additional elaboration:
-
----
 
 # **Project Report: 5x5 Tic-Tac-Toe with Minimax AI**
 
