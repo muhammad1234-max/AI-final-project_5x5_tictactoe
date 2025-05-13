@@ -1,3 +1,90 @@
+# 🎮 Tic-Tac-Five: Intelligent 5x5 Tic-Tac-Toe with AI Modes
+
+## 🧠 Overview
+
+**Tic-Tac-Five** is a smart twist on the classic game of Tic-Tac-Toe, designed on a **5x5 board** with the goal of forming **four marks in a row** (horizontally, vertically, or diagonally). This project introduces two primary modes:
+
+- 🤖 **AI vs AI Mode** – Minimax (Alpha-Beta Pruning) vs Monte Carlo Tree Search (MCTS)
+- 🧍‍♂️ **Human vs AI Mode** – Human plays against Minimax AI in three difficulty levels
+
+Built with Python and Tkinter, this game not only provides an interactive interface but also explores AI algorithms and comparative analysis based on performance metrics.
+
+---
+
+## 📌 Features
+
+### 🧠 AI vs AI Mode
+
+In this fully automated mode:
+- Two AIs (Minimax with Alpha-Beta Pruning and MCTS) play against each other.
+- After each match, the game displays:
+  - ✅ Number of nodes explored
+  - 🕒 Average decision time per move
+  - 🧠 Memory usage
+  - 🏆 Win/Loss/Draw outcomes
+
+This mode helps compare **deterministic vs probabilistic** AI strategies in a structured environment.
+
+---
+
+### 👤 Human vs AI Mode
+
+Play against the AI with 3 difficulty levels:
+- 🟢 **Easy** – Random or shallow-depth Minimax
+- 🟡 **Medium** – Mid-depth Minimax with heuristic evaluation
+- 🔴 **Hard** – Deep Minimax with Alpha-Beta pruning and advanced heuristics
+
+You can choose your difficulty level and test your strategy against a thinking opponent.
+
+---
+
+## 🧩 Technologies Used
+
+- **Python 3.x**
+- **Tkinter** (GUI)
+- **Minimax Algorithm with Alpha-Beta Pruning**
+- **Monte Carlo Tree Search (MCTS)**
+
+---
+
+## 📊 Performance Metrics (AI vs AI)
+
+After each AI vs AI game, the following stats are logged:
+- 🔍 **Nodes Explored** – Shows search space complexity
+- ⏱ **Decision Time** – Average thinking time per move
+- 📦 **Memory Usage** – Resource efficiency
+- ⚔️ **Results** – Number of wins/draws for each algorithm
+
+These are useful for AI benchmarking and academic analysis.
+
+---
+
+## 🎨 User Interface
+
+- Intuitive 5x5 grid with clickable buttons
+- Mode and difficulty selection menus
+- Real-time game updates and visual feedback
+- Restart and exit options with confirmation dialogs
+- Scoreboard for tracking wins/losses
+
+---
+
+## 📈 Complexity & Analysis
+
+| Algorithm        | Time Complexity            | Space Complexity         |
+|------------------|-----------------------------|---------------------------|
+| Minimax          | O(b^d)                      | O(d)                      |
+| Minimax + Alpha-Beta | O(b^(d/2))               | O(d)                      |
+| MCTS             | O(n log n) for `n` simulations | Depends on tree size     |
+
+> `b`: branching factor, `d`: depth of search
+
+Comparisons are plotted in graphs and tables for better visualization.
+
+---
+
+## 📁 Folder Structure
+
 
 # **Project Report: 5x5 Tic-Tac-Toe with Minimax AI**
 
@@ -135,11 +222,6 @@ Future improvements could include:
 - Online resources on Tic-Tac-Toe game implementations.  
 
 --- 
-
-This revised version improves clarity, adds depth to explanations, and presents the information in a more professional and structured format. Let me know if you'd like any further refinements!
-
-
-
 
 
 
